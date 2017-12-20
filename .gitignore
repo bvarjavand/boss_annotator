@@ -1,1 +1,2 @@
 flask_app/DATA/*
+!flask_app/DATA/.gitkeep
