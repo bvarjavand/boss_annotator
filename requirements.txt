@@ -30,3 +30,4 @@ six==1.11.0
 subprocess32==3.2.7
 Werkzeug==0.13
 WTForms==2.1
+lxml
