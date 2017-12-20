@@ -68,7 +68,7 @@ def push_tif():
 	project = remote.get_project(channel_resource)
 	my_file = request.form["file"]	
 	my_array = np.array(io.imread('./DATA/'+my_file)).astype(np.uint8)
-	
+	my_array[my_array>0] = 254
 	for z in range(z_range[0],z_range[1]):
 		remote.create_cutout(channel_resource, 0, (x_range[0],x_range[1]), (y_range[0],y_range[1]), (z,z+1), my_array[z].reshape(-1,my_array.shape[1],my_array.shape[2]))
 	return 'Successfully pushed'
