@@ -1,2 +1,3 @@
 flask_app/DATA/*
+flask_app/app/neurodata.cfg
 !flask_app/DATA/.gitkeep
