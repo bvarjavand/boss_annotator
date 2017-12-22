@@ -2,7 +2,7 @@ from intern.remote.boss import BossRemote
 from intern.resource.boss.resource import ChannelResource
 from flask import render_template, request
 from app import app
-from NDR import get_host_token, NeuroDataResource
+from app.NDResource import get_host_token, NeuroDataResource
 from skimage import io
 import os
 import numpy as np
