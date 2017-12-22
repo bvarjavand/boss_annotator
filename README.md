@@ -6,7 +6,7 @@ Software for Downloading and Uploading to the Boss.
 2. pip3 install -r requirements.txt
 3. Add your Token to neurodata.cfg.example, and rename it to neurodata.cfg
 <img src="neurodata_cfg_example.png" alt="example" width= "200px"/>
-<img src="neurodata_cfg.png" alt="cfg" width: "200px"/>
+<img src="neurodata_cfg.png" alt="cfg" width= "200px"/>
 
 ## Pulling Images
 1. In the main directory containing run.py, run: `python3 run.py`
